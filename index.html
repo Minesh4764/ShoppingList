@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<title>Shopping List Items</title>
+    
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/ajax.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+       
+	</head>
+	<body>
+		<div id="container">
+		<h1>Shopping List</h1>
+		<ul>
+
+
+			<li>One click to check/uncheck an item</li>
+			<li>Double click to remove an item</li>
+			<li>Drag and Drop to arrange it</li>
+			
+		</ul>
+	
+		<h4>Items in Shopping List: <span>0/0</span></h4>
+		<form id ="mainForm" name="MainForm">
+		   <p id="error"> <span id ="errorSpan"></span>
+			<h2><input type="text" placeholder="add item" autofocus required name="ListItem"/>
+
+			<div>
+				<div id="add"  class="button">Add</div>
+
+				<div id="clearChecked" class="button">Clear Checked</div>
+				<div id="clearAll" class="button">Clear All</div>
+			</div>
+		</form>
+		<br/>
+		</div>
+		<div id="container1">
+		<ul class="list">
+ 
+		</ul>
+		
+		</div>
+
+		
+	</body>
+</html>

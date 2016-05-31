@@ -1,0 +1,225 @@
+
+
+
+/*This is to reset the browser default css*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end CSS reset                                          */
+
+/* start of my code                                       */
+body {
+	
+	font-family: 'sans-serif';
+	height: 100%;
+	position: absolute;
+	left: 8%;
+	right: 8%;
+	bottom: 0px;
+	background-color: rgba(243, 197, 105, 0.74);
+}
+
+#container {
+	float: left;
+	min-width: 250px;
+	max-width: 400px;
+	min-height: 100%;
+	margin: 0px auto;
+	padding: 0px 20px;
+	background-color:rgba(239, 193, 103, 0.74);
+	text-align:center
+}
+#container1 {
+	display:inline;
+	float:left;
+  min-width: 575px;
+	max-width: 750px;
+	min-height: 100%;
+	background-color: rgba(212, 71, 55, 0.16);
+	margin: 0px 0px;
+	padding: 0px 20px;
+
+}
+
+
+
+h1 {
+    text-align: center;
+    font-size: 75px;
+    padding: 25px;
+    font-family: 'sans-serif';
+    padding-left-bottom: 35px;
+}
+
+
+
+h4 {
+	font-weight: 700;
+	margin: 15px;
+	font-size: 30px;
+	text-align: center;
+}
+
+
+.list {
+    list-style: :none;
+     margin: 25px; 
+    /* padding: 0; */
+    width: 20px;
+    font-size: 20px;
+    margin: 43px 25px;
+    font-size: 32px;
+    /* position: relative; */
+    letter-spacing: 1px;
+    display: inline;
+}
+
+
+#mainForm input {
+    display: inline;
+    /* width: 80%; */
+    min-width: 45px;
+    max-width: 550px;
+    /* margin: 10px auto; */
+    /* border: 1px solid #C8C8C8; */
+    font-size: 22px;
+    font-family: inherit;
+    letter-spacing: 1px;
+}
+
+
+form > div {
+	width: 330px;
+	margin: 10px auto;
+}
+
+.button{
+	display:inline-block;
+    height: 30px;
+
+	width: 100px;
+	font-size: 15px;
+	background-color: #660000;
+	color: #444444;
+	color: white;
+	padding:3px 0;
+	border-radius: 3px;
+	text-align:center;
+	opacity: 1.0;
+	margin: 7px 3px;
+}
+
+
+.list input[type=button] {
+       position: absolute;
+       right: 120px;
+}
+
+.item {
+    margin-top: 100px;
+    margin: 5px;
+    list-style: none;
+    padding: 0em;
+    font-size: 1em;
+    height: 18px;
+    padding-bottom: 1em;
+}
+
+
+ .list li:nth-child(odd) {
+ 	background-color:  rgba(130, 60, 60, 0.14);
+
+ }
+ .list li:nth-child(even) {
+ 	background-color: rgba(122, 0, 0, 0.22)
+ 	
+ }
+
+  .list input[type=text] {
+    font-size: 20px;
+    width: 400px;
+    border: none;
+    outline: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.checked {
+	text-decoration:line-through;
+
+}
+
+#EditBtn {
+    height: 37px;
+    position: absolute;
+    right: 50px;
+    width: 80px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 3px #888888; 
+
+
+}
+
+
+
+#mainForm p {
+margin-top: 10px;
+    color: red;
+    display: none;
+}
+
+#errorSpan {
+
+font-size: 1.3em;
+color:red;
+
+}
+p {
+
+	display:inline;
+}
+
